@@ -22,5 +22,6 @@
   "engines": {
     "pnpm": "=6.16.0"
   },
-  "engine-strict": true
+  "engine-strict": true,
+  "packageManager": "pnpm@6.16.0"
 }
