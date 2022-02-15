@@ -1,0 +1,26 @@
+{
+  "name": "renovate-repro-issue-14233",
+  "version": "1.0.0",
+  "description": "Reproduce of Renovate issue 14233",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roni-frantchi/renovate-repro-issue-14233.git"
+  },
+  "dependencies": {
+    "lodash": "4.17.20"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roni-frantchi/renovate-repro-issue-14233/issues"
+  },
+  "homepage": "https://github.com/roni-frantchi/renovate-repro-issue-14233#readme",
+  "engines": {
+    "pnpm": "=6.16.0"
+  },
+  "engine-strict": true
+}
