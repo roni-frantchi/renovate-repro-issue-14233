@@ -1,5 +1,5 @@
 {
-  "name": "@acme/root",
+  "name": "@acme/package-a",
   "version": "1.0.0",
   "description": "Reproduce of Renovate issue 14233",
   "main": "index.js",
@@ -10,15 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/roni-frantchi/renovate-repro-issue-14233.git"
   },
+  "dependencies": {
+    "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "jest": "27.5.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/roni-frantchi/renovate-repro-issue-14233/issues"
   },
-  "homepage": "https://github.com/roni-frantchi/renovate-repro-issue-14233#readme",
-  "engines": {
-    "pnpm": "=6.16.0"
-  },
-  "engine-strict": true,
-  "packageManager": "pnpm@6.16.0"
+  "homepage": "https://github.com/roni-frantchi/renovate-repro-issue-14233#readme"
 }
